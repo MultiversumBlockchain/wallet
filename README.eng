@@ -1,10 +1,10 @@
-Breve guida all'uso del wallet.
+Here's some guidelines on how to use Multiversum wallet.
 
-Il wallet deve essere lanciato da riga di comando come di seguito:
+You have to run it from command line like this:
 
 # java -jar wallet-0.0.1-SNAPSHOT.jar
 
-al prompt del wallet è pssoible utilizzare help per visualizzare i comandi disponibili:
+At prompt you can use help function to show all the available commands
 
 wallet:> help
 AVAILABLE COMMANDS
@@ -21,9 +21,9 @@ wallets
         my-address: Show my address
         restore-from-keywords: Restore wallet from keywords
 
-- Generazione nuovo wallet
+- Generating a new wallet
 
-Con il comando generate è possibile creare un nuovo wallet salvando i dati nella direcotry $HOME/.multiversum/wallet.json
+By using the generate command you can create a new wallet saving data on $HOME/.multiversum/wallet.json
 
 wallet:> generate 
  please enter passphrase > ****
@@ -33,9 +33,9 @@ Address: e0b8c1ccd5d5b7c9929f79ba447e3940748f86240b4d0a63c7c6833f6b63d2b3
 Private Key: 3047020100301006072a8648ce3d020106052b8104000a0430302e0201010420f2fd553ba9be32b9d9510a0e7483423d969f202125b7a7cf760779c19458e9c0a00706052b8104000a
 Public Key: 3056301006072a8648ce3d020106052b8104000a0342000427fd30ea29637206265e1e4bbcf20be83973790a23508dbc69be43de4e239a8d168ba35a071a91ce0f2d7e245f7f7a0b2a2fcc8db387d28c0d248fe4993a62ba
 
-Restore di un wallet :
+Restoring a wallet
 
-Utizzare il comando restore-from-keywords per il restore di un wallet.
+By using the restore-from-keywords comamnd you can restore a wallet.
 
 wallet:> restore-from-keywords 
  please write keyword in correct order > announce kiwi clip wheel key elevator drive budget pattern alter next observe
@@ -46,9 +46,9 @@ Private Key: 3047020100301006072a8648ce3d020106052b8104000a0430302e0201010420f2f
 Public Key: 3056301006072a8648ce3d020106052b8104000a0342000427fd30ea29637206265e1e4bbcf20be83973790a23508dbc69be43de4e239a8d168ba35a071a91ce0f2d7e245f7f7a0b2a2fcc8db387d28c0d248fe4993a62ba
 
 
-- Visualizzazione del proprio address:
+- Displaying your own address:
 
-Utilizzare il comando my-address per visulizzare l'address corrente
+By using my-address command it will show your personal address
 
 wallet:> my-address 
 Current wallet address: e0b8c1ccd5d5b7c9929f79ba447e3940748f86240b4d0a63c7c6833f6b63d2b3
